@@ -1,0 +1,7 @@
+<configuration>
+    <theme>STANDARD</theme> <!-- Options: STANDARD or DARK -->
+    <encoding>utf-8</encoding>
+    <protocol>https</protocol>
+    <documentTitle>360T Assesment Test Report</documentTitle>
+    <reportName>Cucumber Test Automation Report</reportName>
+</configuration>
