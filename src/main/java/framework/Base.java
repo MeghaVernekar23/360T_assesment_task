@@ -3,11 +3,12 @@ package framework;
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 import com.aventstack.extentreports.Status;
 
-
 public class Base {
 
-     
-
+    
+    /** 
+     * @param message
+     */
     public void logInfo(String message) {
 
         try {
@@ -34,5 +35,5 @@ public class Base {
             ExtentCucumberAdapter.getCurrentStep().log(Status.FAIL, e.getMessage());
         }
     }
-    
+
 }
